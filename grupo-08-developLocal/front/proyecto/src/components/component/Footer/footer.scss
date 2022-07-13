@@ -1,0 +1,40 @@
+footer{
+    color: #DFE4EA;
+    background-color: #F0572D;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: fixed;
+    width: 100vw;
+    bottom: 0px;
+    z-index: 1000;
+  }
+  
+
+footer p{
+  color: #DFE4EA;
+  margin-left: 40px;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.redes{
+  padding: 10px;
+  font-size: 25px;
+  color: #DFE4EA;
+  text-align: center;
+}
+
+.iconos{
+  margin-right: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .iconos{
+    visibility:hidden;
+  }
+
+  footer p{
+    margin-left: 20px;
+  }
+}

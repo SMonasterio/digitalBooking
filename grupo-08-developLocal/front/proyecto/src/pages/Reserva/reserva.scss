@@ -1,0 +1,55 @@
+.tablasDeInformacion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    padding: 30px;
+}
+
+.completarDatos{
+    width: 70%;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 24px;
+    color: #31363F;
+    padding: 8px;
+    font-style: normal;
+}
+
+.contenedorDeDetalleReserva{
+    width: 430px;
+}
+
+
+/* Responsive */
+@media screen and (max-width: 768px){
+    .tablasDeInformacion{
+        flex-direction: column;
+    }
+
+    .completarDatos{
+        width: 100%;
+    }
+    .contenedorDeDetalleReserva{
+        width: 100%;
+    }
+
+    .linea{
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 460px){
+    .contenedorDeDetalleReserva{
+        width: 100%;
+    }
+    
+    .tablasDeInformacion{
+        padding: 5px;
+    }
+
+}
+
+
