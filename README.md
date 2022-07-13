@@ -53,12 +53,12 @@ Requerimientos técnicos previos:
    
 - Base de datos:
      - Abrir la base de datos MySQL Workbench y crear el schema con el siguiente nombre: <strong>remodigitalbookingprod</strong>. Ejecutar el backend (Al utilizar hibernate, la configuración se conectará y creará las entidades correspondientes del model).
-     - Otra opción es correr desde Workbench el siguiente script que creará las tablas: [script_digitalbooking.sql](uploads/c0effb8b654ef2541808a8912db23b3f/script_digitalbookingFinal.sql).
+     - Otra opción es correr desde Workbench el siguiente script que creará las tablas: [script_digitalbooking.sql](https://drive.google.com/file/d/1i3G52dWCFGL90iY5cP1Xy0EM3-mPbsV1/view?usp=sharing).
      - En el archivo application.properties es fundamental colocar el user y la contraseña que utilizamos en nuestro workbench local.
 - Backend:
      - En IntelliJ, ejecutar RUN al proyecto. 
      - Correr en Postman la siguiente colección: 
-[DigitalBooking Postman Collection](uploads/6bde3ed9c978acf22425992114a09afe/Digitalbooking_Posts_Ok.postman_collection.json) 
+[DigitalBooking Postman Collection](https://drive.google.com/file/d/1MBjLqb8tSIHnxYmnhcxPGxCqwijaQBRI/view?usp=sharing) 
 - Frontend:
      - En Visual Studio Code, abrir la terminal y ejecutar los comandos npm install, npm start.
  
